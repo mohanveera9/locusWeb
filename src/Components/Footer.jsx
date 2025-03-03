@@ -26,7 +26,7 @@ export default function Footer() {
         {/* Stay Connected Section */}
         <div className="md:w-1/2">
           <h2 className="text-2xl lg:text-3xl font-bold">Stay Connected</h2>
-          <div className="flex flex-col sm:flex-row items-center gap-2 mt-3">
+          <div className="flex flex-col sm:flex-row items-start gap-2 mt-3">
             <input 
               type="email" 
               placeholder="Enter your email" 
