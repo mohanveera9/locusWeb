@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between  md:items-start items-start md:text-left">
         
         {/* Contact Section */}
-        <div className="mb-6 md:mb-0 md:w-1/2">
+        <div className="mb-6 md:mb-0 sm:mb-20 md:w-1/2">
           <h2 className="text-2xl lg:text-3xl font-bold font-josefin">Contact Us</h2>
           <div className="flex items-center  md:justify-start gap-3 mt-3">
             <MdPhone className="text-2xl text-white" />
