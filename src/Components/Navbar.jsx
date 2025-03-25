@@ -4,6 +4,9 @@ import Locus from '../assets/locusw.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const handleDownload = () => {
+        window.open("https://drive.google.com/file/d/1SrsGvuOUIkiaEdWaJ3yzHcfmOe0D5INY/view?usp=drivesdk", "_blank");
+      };
 
     return (
         <div className="bg-[#00BF63] px-6 md:px-16 py-3 shadow-md w-full">
@@ -17,7 +20,7 @@ const Navbar = () => {
                     <li className="text-white cursor-pointer hover:underline font-josefin text-[22px]">Contact us</li>
                 </ul>
 
-                <div className="hidden md:flex bg-white rounded-[32px] px-6 py-2 flex-row gap-2 cursor-pointer">
+                <div onClick={handleDownload} className="hidden md:flex bg-white rounded-[32px] px-6 py-2 flex-row gap-2 cursor-pointer">
                     <MdOutlineFileDownload size={23} color="#00BF63" />
                     <div className="font-semibold text-[#00BF63] font-josefin">Get APK</div>
                 </div>
@@ -35,7 +38,7 @@ const Navbar = () => {
                     <a href="#" className="text-[20px] hover:underline">About</a>
                     <a href="#" className="text-[20px] hover:underline">Contact us</a>
 
-                    <div className="bg-white rounded-[32px] px-6 py-2 flex flex-row gap-2 cursor-pointer">
+                    <div onClick={handleDownload} className="bg-white rounded-[32px] px-6 py-2 flex flex-row gap-2 cursor-pointer">
                         <MdOutlineFileDownload size={23} color="#00BF63" />
                         <div className="font-semibold text-[#00BF63] font-josefin">Get APK</div>
                     </div>

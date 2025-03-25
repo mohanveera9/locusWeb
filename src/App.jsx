@@ -5,6 +5,7 @@ import About from './Components/About'
 import DownloadAPK from './Components/DownloadAPK'
 import Features from './Components/Features'
 import Footer from './Components/Footer'
+import AppImageShowcase from './Components/Appimages'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <About />
     <DownloadAPK />
     <Features />
+    <AppImageShowcase />
     <Footer />
     </>
   )
