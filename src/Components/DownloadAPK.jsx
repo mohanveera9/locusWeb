@@ -1,6 +1,6 @@
 export default function DownloadAPK() {
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1SrsGvuOUIkiaEdWaJ3yzHcfmOe0D5INY/view?usp=drivesdk", "_blank");
+    window.open("https://drive.google.com/file/d/19DgKmLdJErA10DCpJ-JpjCPe-aE207p3/view?usp=drivesdk", "_blank");
   };
 
   return (
