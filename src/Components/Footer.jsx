@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center  md:justify-start gap-3 mt-2">
             <MdEmail className="text-2xl text-white" />
-            <span className="font-normal lg:text-xl text-sm">locusofficial21@gmail.com</span>
+            <span className="font-normal lg:text-xl text-sm">locusofficial22@gmail.com</span>
           </div>
           <div className="flex items-center  md:justify-start gap-3 mt-2">
             <MdLocationOn className="text-2xl text-white" />
