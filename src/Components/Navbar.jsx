@@ -5,7 +5,7 @@ import Locus from '../assets/locusw.png';
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleDownload = () => {
-        window.open("#");
+        window.open("https://drive.google.com/file/d/131gO06F661mnz_zsrQhhp3ztMJuWJvYt/view?usp=drivesdk","_blank");
       };
 
     return (
